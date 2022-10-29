@@ -39,7 +39,7 @@ body {
         max-width: 110%;
         display: grid;
         place-content: center;
-        gap: 1.5rem;
+        gap: 2rem;
         margin: 3rem;
         grid-template-columns: repeat(3, 1fr);
     } 
@@ -55,12 +55,12 @@ body {
         grid-row-end: 3;
     } 
 }
-@media only screen and (max-width: 50.9em) and (min-width: 38em) {
+@media only screen and (max-width: 50.9em) and (min-width: 40em) {
     .layout {
         max-width: 110%;
         display: grid;
         place-content: center;
-        gap: 1.5rem;
+        gap: 2rem;
         margin: 3rem;
         grid-template-columns: repeat(2, 1fr);
     } 
