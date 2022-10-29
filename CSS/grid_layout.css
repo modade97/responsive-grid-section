@@ -14,9 +14,11 @@ body {
 }
 @media only screen and (min-width: 66em) {
     .layout {
+        max-width: 120%;
         display: grid;
         place-content: center;
         gap: 2.5rem;
+        margin: 3px;
         grid-template-columns: repeat(4, 1fr);
     } 
     .element:nth-child(1) {
@@ -38,6 +40,7 @@ body {
         display: grid;
         place-content: center;
         gap: 1.5rem;
+        margin: 3px;
         grid-template-columns: repeat(3, 1fr);
     } 
     .element:nth-child(1) {
@@ -58,6 +61,7 @@ body {
         display: grid;
         place-content: center;
         gap: 1.5rem;
+        margin: 3px;
         grid-template-columns: repeat(2, 1fr);
     } 
     .element:nth-child(1) {
