@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+html {
+    font-size: 85%;
+}
+body {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: #EDF2F8;
+    font-weight: 500;
+    line-height: 1.5rem;
+    max-width: 120rem;
+    min-height: 100vh;
+    display: grid;
+    place-content: center; 
+}
+.layout {
+    display: grid;
+    place-content: center;
+    gap: 1.5rem;
+    margin: 3rem;
+}
+.background_image {
+    background: url(/images/bg-pattern-quotation.svg) no-repeat 90% top;
+}
+.element {
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+.element_1 {
+    display: flex;
+}
+.image_div img {
+    border-radius: 100%;
+}
+.avi_border {
+    border: 2px solid #af82f1;
+}
+.name_Status {
+    line-height: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.9735rem;
+    padding-right: 0.9rem;
+}
+.name_Status h4 {
+    font-size: 0.9rem;
+}
+.name_Status p {
+    opacity: 50%;
+}
+.element_2 {
+    margin-top: 1rem;
+}
+
+.element_2 h3{
+    margin-top: 0.625rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.element_2 p{
+    font-size: 0.9rem;
+    line-height: 1.9;
+    opacity: 70%;
+}
+
+.element:nth-child(1) {
+    color: #FFF4FF;
+    background-color: #733FC8;
+}
+.element:nth-child(2) {
+    color: #FFF4FF;
+    background-color: #49556B;
+}
+.element:nth-child(3) {
+    color: #535762;
+    background-color: #FFFFFF;
+}
+.element:nth-child(4) {
+    color: #FFF4FF;
+    background-color: #18202D;
+}
+.element:nth-child(5) {
+    color: #535762;
+    background-color: #FFFFFF;
+} 
