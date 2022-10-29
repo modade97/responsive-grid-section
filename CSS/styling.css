@@ -20,7 +20,7 @@ body {
 .layout {
     display: grid;
     place-content: center;
-    gap: 1.5rem;
+    gap: 2rem;
     margin: 2rem;
 }
 .background_image {
