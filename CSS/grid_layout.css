@@ -18,7 +18,7 @@ body {
         display: grid;
         place-content: center;
         gap: 2.5rem;
-        padding: 3px;
+        margin: 3rem;
         grid-template-columns: repeat(4, 1fr);
     } 
     .element:nth-child(1) {
@@ -40,7 +40,7 @@ body {
         display: grid;
         place-content: center;
         gap: 1.5rem;
-        margin: 3px;
+        margin: 3rem;
         grid-template-columns: repeat(3, 1fr);
     } 
     .element:nth-child(1) {
@@ -61,7 +61,7 @@ body {
         display: grid;
         place-content: center;
         gap: 1.5rem;
-        margin: 3px;
+        margin: 3rem;
         grid-template-columns: repeat(2, 1fr);
     } 
     .element:nth-child(1) {
