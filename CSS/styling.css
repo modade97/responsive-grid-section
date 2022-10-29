@@ -21,7 +21,7 @@ body {
     display: grid;
     place-content: center;
     gap: 1.5rem;
-    margin: 2rem;
+    margin: 1.5rem;
 }
 .background_image {
     background: url(/images/bg-pattern-quotation.svg) no-repeat 90% top;
