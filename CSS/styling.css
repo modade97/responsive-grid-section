@@ -24,7 +24,7 @@ body {
     margin: 2rem;
 }
 .background_image {
-    background: url("./images/bg-pattern-quotation.svg") no-repeat 90% top;
+    background: url("./images/bg-pattern-quotation.svg") no-repeat 85% top;
 }
 .element {
     border-radius: 10px;
